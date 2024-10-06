@@ -6,7 +6,7 @@
 <code><pre>apt update && apt upgrade</code></pre>
 
 #STEP 2 🤖
-<code><pre>sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget https://raw.githubusercontent.com/Ibnuganteng37/v3/main/bayu.sh && chmod +x bayu.sh && sed -i -e 's/\r$//' bayu.sh && screen -S bayu ./bayu.sh</code></pre>
+<code><pre>sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget https://raw.githubusercontent.com/Ibnuganteng37/scvpn/main/bayu.sh && chmod +x bayu.sh && sed -i -e 's/\r$//' bayu.sh && screen -S bayu ./bayu.sh</code></pre>
 
 ### TESTED ON OS
 - UBUNTU 20.04.05
